@@ -1,0 +1,35 @@
+#1
+Filter: {countries: "USA", imdb.rating: { "$gte": 5 }}
+
+Projet: {title: 1, countries: 1, imdb.rating: 1, _id: 0}
+Sort :{imdb.rating: -1}
+
+
+#2
+db.users.find(
+  { "email": { "$regex": ".com"} },
+  { "name": 1, "email": 1, "_id": 0 }
+)
+
+#3
+
+db.movies.aggregate([
+  { "$match": { "year": { "$gt": 1950 } } },
+  {"$group": {"_id": "$rated","average_runtime": { "$avg": "$runtime" }}},
+  {"$project": {"_id": 0,"rated": "$_id","average_runtime": 1}}
+])
+
+#4
+
+MATCH (p:Person)-[:ACTED_IN]->(m:Movie)
+WHERE m.released > 1960
+RETURN p.name AS Szereplo_neve , m.title AS film_cime , m.released AS megjel_ev
+ORDER BY m.released DESC
+
+#5
+
+MATCH (p:Person)-[:DIRECTED]->(m:Movie)
+WITH p, COUNT(*) AS NumMoviesDirected
+RETURN p.name AS Director, NumMoviesDirected
+ORDER BY NumMoviesDirected DESC
+LIMIT 5
