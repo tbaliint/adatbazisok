@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="47321B2E-3C4D-0944-A386-8D0D39C04DAB" name="hitel">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:36 UTC</createdTime>
+<generatorID>21E8A891-5E56-5442-9741-AD061F4C24BE</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="hitel_id" id="86DB3DDB-312A-A96F-7C2D-854E0B0752A1">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:36 UTC</createdTime>
+<generatorID>A898C157-1D0E-2E61-54D7-C676A5ACD223</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="felvett_osszeg" id="68B8B3B7-20F6-F47D-EB90-9F5D01C6C993">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:36 UTC</createdTime>
+<generatorID>1C0BDC2C-A390-707F-563D-9B099C375239</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="futamido" id="3C3F1B23-83B6-DD9C-442C-7228F8E6CED5">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:36 UTC</createdTime>
+<generatorID>E3F9D270-EFE9-8BF4-293D-FB09E4E07C54</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="kezdet" id="2C6567C2-3E4A-2459-E73E-3E9BE60AC4DA">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:36 UTC</createdTime>
+<generatorID>8AEDE2B5-A3C4-329F-053D-8B909A690F7C</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vege" id="4CD029CA-45DB-F1F2-4F5D-E3B51CBACF6D">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:36 UTC</createdTime>
+<generatorID>D5C97637-4B9F-0E54-8578-F3E410CAE3FA</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="thm" id="787105C7-740E-8274-C8AC-282ADFEBA04C">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:36 UTC</createdTime>
+<generatorID>C177CE85-DD89-E222-CF6E-329E2BC52AAA</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="havi_torleszto" id="6CB7CD3D-2330-2215-56D6-B78F9C0318A8">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:36 UTC</createdTime>
+<generatorID>3BF4808A-C227-D2F0-BE67-4517F3DE8BB9</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="hitelf_forma_id" id="08F45846-5018-F279-9BE7-DD65A62609C6">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:36 UTC</createdTime>
+<generatorID>18BA72EA-DFE0-C691-372C-7DEA0F3768DD</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3D9E6EDE-E1CE-F863-8D76-7577EB248C9E" referredColumn="91313FFE-5875-33E6-B6FC-18F3E4F96372"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="235890E9-90D7-A3DF-C9BA-FE17B5B1B944" name="hitel_PK">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:36 UTC</createdTime>
+<generatorID>A5298E8B-52C2-0E69-84B1-5814605F2FA0</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="86DB3DDB-312A-A96F-7C2D-854E0B0752A1"/>
+<colUsage columnID="08F45846-5018-F279-9BE7-DD65A62609C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FEC831BC-3D5E-17E5-05E2-AA0DD620347E" name="hitel_hitelf_FK">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:37 UTC</createdTime>
+<generatorID>706C75F0-35C6-EC7F-54B5-BA331562E28A</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08F45846-5018-F279-9BE7-DD65A62609C6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

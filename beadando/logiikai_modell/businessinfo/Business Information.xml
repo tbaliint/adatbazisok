@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<BusinessInfoDesign class="oracle.dbtools.crest.model.businessinfo.BusinessInfoDesign" name="Business Information" id="0276A413-E5E3-5DCC-82B5-80919B9A8AA2">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-05 14:08:27 UTC</createdTime>
+<ownerDesignName>logical_fos</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</BusinessInfoDesign>

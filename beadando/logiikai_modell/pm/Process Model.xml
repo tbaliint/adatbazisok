@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<ProcessModel class="oracle.dbtools.crest.model.design.process.ProcessModel" name="Process Model" id="5032E61E-A0DE-58C3-1569-66E3A37D1971">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-05 14:08:26 UTC</createdTime>
+<ownerDesignName>logical_fos</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</ProcessModel>

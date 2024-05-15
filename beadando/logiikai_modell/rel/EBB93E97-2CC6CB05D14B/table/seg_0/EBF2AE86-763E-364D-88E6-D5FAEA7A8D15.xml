@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EBF2AE86-763E-364D-88E6-D5FAEA7A8D15" name="Ugyfel">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:36 UTC</createdTime>
+<generatorID>E652554A-7ABA-E405-68DC-68F7CC544C16</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ugyfel_id" id="27087BE1-34AD-3C2D-5A6C-FEAC43C430B5">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:36 UTC</createdTime>
+<generatorID>13A01605-04B7-EEC3-9AE7-8652E5065B9C</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="szemelyig_szam" id="7339CDDC-C616-F363-7204-3532A0838A64">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:36 UTC</createdTime>
+<generatorID>C0DCDF5C-F3FF-F484-86EA-0D0C46D70B71</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nev" id="9A463573-F1C8-4BC3-B7C8-DC6FAAA0F5F0">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:36 UTC</createdTime>
+<generatorID>1B23F8B5-3C41-5501-0F81-41D643836049</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="leanykori_nev" id="B2C1BDFD-33EE-41F3-3936-D3CE68AEBAC1">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:36 UTC</createdTime>
+<generatorID>0E64AA6B-8BD7-00B1-02F8-3798B38616B9</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="szul_dat" id="C10B1E5C-9602-9A34-D921-704FC1994D82">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:36 UTC</createdTime>
+<generatorID>06238E16-A6F6-60A9-07F7-BBE4498571A7</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D665171-BABE-3F15-F45D-C72CBA52749D" name="Ugyfel_PK">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:36 UTC</createdTime>
+<generatorID>937E36A4-8FB2-684F-2EA0-B8F61F6355AC</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="27087BE1-34AD-3C2D-5A6C-FEAC43C430B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

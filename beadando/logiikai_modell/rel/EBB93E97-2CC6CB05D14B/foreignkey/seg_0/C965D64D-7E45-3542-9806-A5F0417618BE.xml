@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="C965D64D-7E45-3542-9806-A5F0417618BE" containerWithKeyObject="9FC6DF2C-C5D8-F06D-A852-D17875E01F08" localFKIndex="05FB1FBF-FA3A-731F-B7BE-CA501EBA99E3" name="hitelig_Dolgozo_FK">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:36 UTC</createdTime>
+<generatorID>E488178B-EF52-7962-8EA7-3B796F88E664</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<referredTableLongName>Dolgozo</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>990390A3-BB5F-12AF-781F-40674C9F1C96</referredTableID>
+<keyObject>5FDC1AD5-1808-B5C9-8914-5EC03E3A4C50</keyObject>
+<referredKeyID>5FDC1AD5-1808-B5C9-8914-5EC03E3A4C50</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>dolgozo_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

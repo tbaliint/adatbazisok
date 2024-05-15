@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="A254C20A-2D58-DF88-88B5-2F4C309DE728" mainViewID="A4083682-7318-4920-E1F6-FFB777782D2D">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-05 14:08:26 UTC</createdTime>
+<ownerDesignName>logical_fos</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

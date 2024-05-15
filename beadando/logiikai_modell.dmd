@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="logiikai_modell" id="42189201-5616-7D80-158C-742BBB14E378" version="3.5">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-05 14:08:26 UTC</createdTime>
+<ownerDesignName>logical_fos</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>42189201-5616-7D80-158C-742BBB14E378</designId>
+</OSDM_Design>

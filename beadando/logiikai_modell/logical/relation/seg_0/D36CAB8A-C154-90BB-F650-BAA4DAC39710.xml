@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="hitel_FK" directorySegmentName="seg_0" id="D36CAB8A-C154-90BB-F650-BAA4DAC39710">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-05 15:12:55 UTC</createdTime>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<engineerTo>
+<item key="EBB93E97-60A5-0B18-3323-2CC6CB05D14B" value="true"/>
+</engineerTo>
+<sourcePk>A5298E8B-52C2-0E69-84B1-5814605F2FA0</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>21E8A891-5E56-5442-9741-AD061F4C24BE</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>CE10BE63-82E2-5483-BF13-5BE4F669E5B7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

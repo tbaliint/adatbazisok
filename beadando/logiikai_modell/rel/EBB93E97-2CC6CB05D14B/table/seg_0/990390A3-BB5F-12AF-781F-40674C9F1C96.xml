@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="990390A3-BB5F-12AF-781F-40674C9F1C96" name="Dolgozo">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:36 UTC</createdTime>
+<generatorID>AE1D278B-B730-F71C-BEC9-443D6456CA69</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="dolgozo_id" id="195669C3-8CE8-F3A6-8439-308FDA26778A">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:36 UTC</createdTime>
+<generatorID>8E2E07A1-4419-A97D-4159-FFB35C366ECC</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="dolgozo_nev" id="C12CC9E9-39F7-72AE-F714-D82E5933F4AC">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:36 UTC</createdTime>
+<generatorID>38E5FA82-5966-6C05-0E44-E64792E80DAC</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5FDC1AD5-1808-B5C9-8914-5EC03E3A4C50" name="Dolgozo_PK">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:36 UTC</createdTime>
+<generatorID>BA45390A-E4E2-309B-D903-B325EB58D131</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="195669C3-8CE8-F3A6-8439-308FDA26778A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

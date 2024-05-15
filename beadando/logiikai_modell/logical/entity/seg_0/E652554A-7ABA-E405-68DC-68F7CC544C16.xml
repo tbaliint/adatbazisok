@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E652554A-7ABA-E405-68DC-68F7CC544C16" name="Ugyfel">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-05 14:15:39 UTC</createdTime>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<engineerTo>
+<item key="EBB93E97-60A5-0B18-3323-2CC6CB05D14B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ugyfel_id" id="13A01605-04B7-EEC3-9AE7-8652E5065B9C">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-05 14:15:48 UTC</createdTime>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<engineerTo>
+<item key="EBB93E97-60A5-0B18-3323-2CC6CB05D14B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="szemelyig_szam" id="C0DCDF5C-F3FF-F484-86EA-0D0C46D70B71">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-05 14:16:36 UTC</createdTime>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<engineerTo>
+<item key="EBB93E97-60A5-0B18-3323-2CC6CB05D14B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>8</dataTypeSize>
+<ownDataTypeParameters>8,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nev" id="1B23F8B5-3C41-5501-0F81-41D643836049">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-05 14:35:19 UTC</createdTime>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<engineerTo>
+<item key="EBB93E97-60A5-0B18-3323-2CC6CB05D14B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="leanykori_nev" id="0E64AA6B-8BD7-00B1-02F8-3798B38616B9">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-05 14:35:53 UTC</createdTime>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<engineerTo>
+<item key="EBB93E97-60A5-0B18-3323-2CC6CB05D14B" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="szul_dat" id="06238E16-A6F6-60A9-07F7-BBE4498571A7">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-05 14:36:27 UTC</createdTime>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<engineerTo>
+<item key="EBB93E97-60A5-0B18-3323-2CC6CB05D14B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="937E36A4-8FB2-684F-2EA0-B8F61F6355AC" name="Key_1">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-05 14:19:46 UTC</createdTime>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<engineerTo>
+<item key="EBB93E97-60A5-0B18-3323-2CC6CB05D14B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>13A01605-04B7-EEC3-9AE7-8652E5065B9C</newElementsIDs>
+<usedAttributes>
+<attributeRef>13A01605-04B7-EEC3-9AE7-8652E5065B9C</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

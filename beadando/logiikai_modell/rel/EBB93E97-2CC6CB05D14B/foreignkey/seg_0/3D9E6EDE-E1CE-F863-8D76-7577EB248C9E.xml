@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="3D9E6EDE-E1CE-F863-8D76-7577EB248C9E" containerWithKeyObject="47321B2E-3C4D-0944-A386-8D0D39C04DAB" localFKIndex="FEC831BC-3D5E-17E5-05E2-AA0DD620347E" name="hitel_hitelf_FK">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:37 UTC</createdTime>
+<generatorID>706C75F0-35C6-EC7F-54B5-BA331562E28A</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<referredTableLongName>hitelf</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>DD374CD4-0693-C6AA-21E7-9D294BEF19C3</referredTableID>
+<keyObject>86ACC45D-9E31-B3D4-D4C7-4C7831FF1287</keyObject>
+<referredKeyID>86ACC45D-9E31-B3D4-D4C7-4C7831FF1287</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>forma_id</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

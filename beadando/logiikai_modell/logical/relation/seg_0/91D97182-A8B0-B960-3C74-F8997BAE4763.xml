@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="ugyfel_FK" directorySegmentName="seg_0" id="91D97182-A8B0-B960-3C74-F8997BAE4763">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-05 15:01:19 UTC</createdTime>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<engineerTo>
+<item key="EBB93E97-60A5-0B18-3323-2CC6CB05D14B" value="true"/>
+</engineerTo>
+<sourcePk>937E36A4-8FB2-684F-2EA0-B8F61F6355AC</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>E652554A-7ABA-E405-68DC-68F7CC544C16</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>CE10BE63-82E2-5483-BF13-5BE4F669E5B7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

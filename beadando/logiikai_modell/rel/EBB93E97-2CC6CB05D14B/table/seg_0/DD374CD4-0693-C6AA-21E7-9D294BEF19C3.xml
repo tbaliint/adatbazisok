@@ -1,0 +1,49 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DD374CD4-0693-C6AA-21E7-9D294BEF19C3" name="hitelf">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:36 UTC</createdTime>
+<generatorID>878BE0A3-C20B-DC58-C5A6-3D62C3F5A8CC</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="forma_id" id="91313FFE-5875-33E6-B6FC-18F3E4F96372">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:36 UTC</createdTime>
+<generatorID>40F81AC2-FD7A-74D2-ED24-14BB13CD91A7</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="forma" id="3FD7469D-7A9C-D3B4-4036-35829B315CAE">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:36 UTC</createdTime>
+<generatorID>E9133453-2924-4AE5-3A26-BE4A6265DBFB</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT037</logicalDatatype>
+<dataTypeSize>64</dataTypeSize>
+<ownDataTypeParameters>64,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="86ACC45D-9E31-B3D4-D4C7-4C7831FF1287" name="hitelf_PK">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:36 UTC</createdTime>
+<generatorID>3149BB44-F5A0-8124-BB98-3FCE2E39B9D0</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="91313FFE-5875-33E6-B6FC-18F3E4F96372"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

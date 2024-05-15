@@ -1,0 +1,133 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="21E8A891-5E56-5442-9741-AD061F4C24BE" name="hitel">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-05 14:37:11 UTC</createdTime>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<engineerTo>
+<item key="EBB93E97-60A5-0B18-3323-2CC6CB05D14B" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="hitel_id" id="A898C157-1D0E-2E61-54D7-C676A5ACD223">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-05 14:37:18 UTC</createdTime>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<engineerTo>
+<item key="EBB93E97-60A5-0B18-3323-2CC6CB05D14B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="felvett_osszeg" id="1C0BDC2C-A390-707F-563D-9B099C375239">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-05 14:37:43 UTC</createdTime>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<engineerTo>
+<item key="EBB93E97-60A5-0B18-3323-2CC6CB05D14B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="futamido" id="E3F9D270-EFE9-8BF4-293D-FB09E4E07C54">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-05 14:39:16 UTC</createdTime>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<engineerTo>
+<item key="EBB93E97-60A5-0B18-3323-2CC6CB05D14B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="kezdet" id="8AEDE2B5-A3C4-329F-053D-8B909A690F7C">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-05 14:39:42 UTC</createdTime>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<engineerTo>
+<item key="EBB93E97-60A5-0B18-3323-2CC6CB05D14B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="vege" id="D5C97637-4B9F-0E54-8578-F3E410CAE3FA">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-05 14:40:02 UTC</createdTime>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<engineerTo>
+<item key="EBB93E97-60A5-0B18-3323-2CC6CB05D14B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="thm" id="C177CE85-DD89-E222-CF6E-329E2BC52AAA">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-05 14:40:14 UTC</createdTime>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<engineerTo>
+<item key="EBB93E97-60A5-0B18-3323-2CC6CB05D14B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="havi_torleszto" id="3BF4808A-C227-D2F0-BE67-4517F3DE8BB9">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-05 14:43:44 UTC</createdTime>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<engineerTo>
+<item key="EBB93E97-60A5-0B18-3323-2CC6CB05D14B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="forma_id" id="18BA72EA-DFE0-C691-372C-7DEA0F3768DD">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:13:22 UTC</createdTime>
+<generatorID>706C75F0-35C6-EC7F-54B5-BA331562E28A</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<engineerTo>
+<item key="EBB93E97-60A5-0B18-3323-2CC6CB05D14B" value="true"/>
+</engineerTo>
+<referedAttribute>40F81AC2-FD7A-74D2-ED24-14BB13CD91A7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="A5298E8B-52C2-0E69-84B1-5814605F2FA0" name="Key_1">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-05 14:44:22 UTC</createdTime>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<engineerTo>
+<item key="EBB93E97-60A5-0B18-3323-2CC6CB05D14B" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>A898C157-1D0E-2E61-54D7-C676A5ACD223,706C75F0-35C6-EC7F-54B5-BA331562E28A</newElementsIDs>
+<usedAttributes>
+<attributeRef>A898C157-1D0E-2E61-54D7-C676A5ACD223</attributeRef>
+<attributeRef>18BA72EA-DFE0-C691-372C-7DEA0F3768DD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

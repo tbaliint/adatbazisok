@@ -1,0 +1,167 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="9FC6DF2C-C5D8-F06D-A852-D17875E01F08" name="hitelig">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:36 UTC</createdTime>
+<generatorID>CE10BE63-82E2-5483-BF13-5BE4F669E5B7</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="igenyelt_osszeg" id="89D0CD52-A836-9CF9-ACEB-990385FD089D">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:36 UTC</createdTime>
+<generatorID>CC4A061F-03B0-FF65-6992-1C3DB318019B</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="foly_kolts" id="E29CF04C-5F92-74FE-0C76-84527C82468D">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:36 UTC</createdTime>
+<generatorID>3324677D-9BD7-6EF9-EB62-3A7F2DC73FA8</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Ugyfel_ugyfel_id" id="6D2302DA-1E52-57EF-B43B-F14AE293B299">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:36 UTC</createdTime>
+<generatorID>AD2286A1-F432-020A-B7CF-16711031F522</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="746E9858-1F3A-29A5-0F0C-6C8F6DF9327B" referredColumn="27087BE1-34AD-3C2D-5A6C-FEAC43C430B5"/>
+</associations>
+</Column>
+<Column name="hitel_hitel_id" id="037F1151-F9C9-1D95-BDFB-CA47A2AAED5F">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:36 UTC</createdTime>
+<generatorID>5E783C38-6255-938C-83D0-48D508F3A6E2</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18E860E0-C3FA-B805-69A8-696670E4DDAD" referredColumn="86DB3DDB-312A-A96F-7C2D-854E0B0752A1"/>
+</associations>
+</Column>
+<Column name="Dolgozo_dolgozo_id" id="5DF98C15-426D-2A45-E6FB-DB35DA9C2A1B">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:36 UTC</createdTime>
+<generatorID>728AE6B2-1ACC-8DBE-05AC-B5EA91264BCE</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="C965D64D-7E45-3542-9806-A5F0417618BE" referredColumn="195669C3-8CE8-F3A6-8439-308FDA26778A"/>
+</associations>
+</Column>
+<Column name="hitel_forma_id" id="B7415121-E346-2305-DD7F-5A4AFC3A18A4">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:36 UTC</createdTime>
+<generatorID>AB7982A8-3926-DA20-96BD-985C859281C8</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="18E860E0-C3FA-B805-69A8-696670E4DDAD" referredColumn="08F45846-5018-F279-9BE7-DD65A62609C6"/>
+</associations>
+</Column>
+<Column name="teljesitett" id="0A0899E5-F922-80E8-4A20-BC7D076093C3">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:36 UTC</createdTime>
+<generatorID>89146972-8C44-750E-D297-457637FEBEF1</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9FE1017B-D08F-7742-2B2A-ACD4F0ED596F" name="hitelig_PK">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:36 UTC</createdTime>
+<generatorID>D8248C7B-81C4-8458-C612-399A435319FB</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D2302DA-1E52-57EF-B43B-F14AE293B299"/>
+<colUsage columnID="5DF98C15-426D-2A45-E6FB-DB35DA9C2A1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="1845133B-C516-0FC1-32D7-864D4A14541B" name="hitelig__IDX">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:37 UTC</createdTime>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<relationGeneratorID>D36CAB8A-C154-90BB-F650-BAA4DAC39710</relationGeneratorID>
+<indexColumnUsage>
+<colUsage columnID="037F1151-F9C9-1D95-BDFB-CA47A2AAED5F"/>
+<colUsage columnID="B7415121-E346-2305-DD7F-5A4AFC3A18A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05FB1FBF-FA3A-731F-B7BE-CA501EBA99E3" name="hitelig_Dolgozo_FK">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:36 UTC</createdTime>
+<generatorID>E488178B-EF52-7962-8EA7-3B796F88E664</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5DF98C15-426D-2A45-E6FB-DB35DA9C2A1B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="AEC4C68E-9B8A-88C5-8771-48E087E7C70C" name="hitelig_hitel_FK">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:36 UTC</createdTime>
+<generatorID>D36CAB8A-C154-90BB-F650-BAA4DAC39710</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="037F1151-F9C9-1D95-BDFB-CA47A2AAED5F"/>
+<colUsage columnID="B7415121-E346-2305-DD7F-5A4AFC3A18A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="295F3E7C-EF8E-4DDC-F51A-4F0CB18EDDD5" name="hitelig_Ugyfel_FK">
+<createdBy>balint</createdBy>
+<createdTime>2024-05-06 09:24:37 UTC</createdTime>
+<generatorID>91D97182-A8B0-B960-3C74-F8997BAE4763</generatorID>
+<ownerDesignName>logiikai_modell</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D2302DA-1E52-57EF-B43B-F14AE293B299"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
